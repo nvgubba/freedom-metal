@@ -38,6 +38,7 @@ nobase_include_HEADERS += \
 	metal/drivers/riscv_clint0.h \
 	metal/drivers/riscv_cpu.h \
 	metal/drivers/riscv_plic0.h \
+	metal/drivers/sifive_addr_rmpr0.h \
 	metal/drivers/sifive_buserror0.h \
 	metal/drivers/sifive_ccache0.h \
 	metal/drivers/sifive_clic0.h \
@@ -63,6 +64,7 @@ nobase_include_HEADERS += \
 	metal/drivers/sifive_simuart0.h \
 	metal/drivers/sifive_wdog0.h \
 	metal/drivers/ucb_htif0.h \
+	metal/addr_rmpr.h \
 	metal/atomic.h \
 	metal/button.h \
 	metal/cache.h \
@@ -108,6 +110,7 @@ libmetal_a_SOURCES = \
 	src/drivers/riscv_clint0.c \
 	src/drivers/riscv_cpu.c \
 	src/drivers/riscv_plic0.c \
+	src/drivers/sifive_addr_rmpr0.c \
 	src/drivers/sifive_buserror0.c \
 	src/drivers/sifive_ccache0.c \
 	src/drivers/sifive_clic0.c \
@@ -133,6 +136,7 @@ libmetal_a_SOURCES = \
 	src/drivers/sifive_simuart0.c \
 	src/drivers/sifive_wdog0.c \
 	src/drivers/ucb_htif0.c \
+	src/addr_rmpr.c \
 	src/atomic.c \
 	src/button.c \
 	src/cache.c \
